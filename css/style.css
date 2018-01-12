@@ -1,0 +1,73 @@
+/*GLOBAL STYLES*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../img/fond.png");
+    font-family: 'Bree Serif', serif;
+}
+/*Navigation style*/
+.navigation {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navigation ul {
+    text-align: right;
+    padding: 0;
+}
+.navigation li {
+    display: inline-block;
+    text-align: center;
+    line-height: auto;
+    padding: 0 50px;
+    vertical-align: middle;
+}
+li:first-child {
+    float: left;
+}
+.navigation a {
+    color: #959595;
+}
+.navigation i {
+    display: block;
+    font-size: 1.2em;
+}
+span {
+    font-size: 1.2em;
+    font-weight: bold;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+span:hover {
+    transform: translateY(20);
+}
+/*VIGNETE STYLE*/
+.jumbotron {
+    background-image: url("../img/bg_header.jpg");
+    background-position: center;
+    text-align: center;
+    font-size: 0.5em;
+    color: white;
+}
+.box {
+    text-align: center;
+}
+.box a {
+    font-size: 2em;
+}
+.title {
+    text-align: center;
+    color: #f62459;
+}
+.sub-title {
+    color: #f62459;
+}
+/*MAIN CONTENT STYLE*/
+.icon-btn {
+    background-color: #eff0f0;
+}
+.icon-btn a {
+    background-color: #999999;
+}
