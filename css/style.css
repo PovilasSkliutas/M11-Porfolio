@@ -54,9 +54,6 @@ span:hover {
 .box {
     text-align: center;
 }
-.box a {
-    font-size: 2em;
-}
 .title {
     text-align: center;
     color: #f62459;
@@ -64,10 +61,84 @@ span:hover {
 .sub-title {
     color: #f62459;
 }
+.btn {
+    background-color: #f62459;
+    color: white;
+}
 /*MAIN CONTENT STYLE*/
+.icons-logo {
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    background-color: #eff0f0;
+    opacity: 0.5;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+.icons-logo a {
+    font-size: 2em;
+    color: #999999;
+}
+.animation:hover {
+    animation: bounce 0.5s infinite alternate;
+}
+@keyframes bounce{
+    from {
+        -webkit-transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    to {
+        -webkit-transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+    }
+}
 .icon-btn {
     background-color: #eff0f0;
 }
 .icon-btn a {
     background-color: #999999;
+}
+.en-savoir {
+    color: #f62459;
+}
+/*registration form style*/
+.registration {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form-name {
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 10px;
+    padding: 20px 20px 20px 57px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+#input-name {
+    background-image: url("../img/bg_form_name.svg");
+}
+#input-mail {
+    background-image: url("../img/bg_form_mail.svg");
+}
+#input-message {
+    background-image: url("../img/bg_form_message.svg");
+}
+textarea {
+    resize: none;
+}
+
+/*FOOTER STYLE*/
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 20px;
+}
+footer p {
+  margin: 0 auto;
 }
